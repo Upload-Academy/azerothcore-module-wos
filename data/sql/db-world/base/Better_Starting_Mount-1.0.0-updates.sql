@@ -10,7 +10,7 @@ WHERE
 UPDATE npc_trainer
 SET
     `moneycost` = 100,
-    `requiredlevel` = 10
+    `reqlevel` = 10
 WHERE
     `SpellID` IN (33388);
 -- END OF UPDATE
